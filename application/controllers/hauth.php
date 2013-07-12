@@ -58,7 +58,7 @@ class HAuth extends CI_Controller {
 			switch($e->getCode())
 			{
 			case 0 : $error = 'Unspecified error.'; break;
-			case 1 : $error = 'Hybriauth configuration error.'; break;
+			case 1 : $error = 'HybridAuth configuration error.'; break;
 			case 2 : $error = 'Provider not properly configured.'; break;
 			case 3 : $error = 'Unknown or disabled provider.'; break;
 			case 4 : $error = 'Missing provider application credentials.'; break;
